@@ -1,0 +1,13 @@
+{
+  "name": "planning-poker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "packageManager": "pnpm@10.15.1",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r exec tsc --noEmit",
+    "e2e": "pnpm --filter web exec playwright test"
+  }
+}
